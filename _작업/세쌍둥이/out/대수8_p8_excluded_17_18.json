@@ -1,0 +1,59 @@
+[
+ {
+  "id": "FAN-대수-G8-P17",
+  "source": "학원교재",
+  "book": "세쌍둥이 개념편 대수",
+  "page": 120,
+  "num": "G8-연습17",
+  "unit": "대수-3-08",
+  "unitName": "수열 › 등차수열과 등비수열",
+  "type": "선분의 내분점",
+  "stdType": "선분의 내분점",
+  "fanType": null,
+  "level": "상",
+  "kind": "객관식",
+  "body": "세 꼭짓점의 좌표가 $\\mathrm{A}(0,\\,3)$, $\\mathrm{B}(-5,\\,-9)$, $\\mathrm{C}(4,\\,0)$인 삼각형 $\\mathrm{ABC}$가 있다. 그림과 같이 $\\overline{\\mathrm{AC}}=\\overline{\\mathrm{AD}}$가 되도록 점 $\\mathrm{D}$를 선분 $\\mathrm{AB}$ 위에 잡는다. 점 $\\mathrm{A}$를 지나면서 선분 $\\mathrm{DC}$와 평행한 직선이 선분 $\\mathrm{BC}$의 연장선과 만나는 점을 $\\mathrm{P}$라 하자. 이때 점 $\\mathrm{P}$의 좌표는?",
+  "choices": [
+   "$\\left(\\dfrac{61}{8},\\ \\dfrac{29}{8}\\right)$",
+   "$\\left(\\dfrac{65}{8},\\ \\dfrac{33}{8}\\right)$",
+   "$\\left(\\dfrac{69}{8},\\ \\dfrac{37}{8}\\right)$",
+   "$\\left(\\dfrac{73}{8},\\ \\dfrac{41}{8}\\right)$",
+   "$\\left(\\dfrac{77}{8},\\ \\dfrac{45}{8}\\right)$"
+  ],
+  "answer": "⑤",
+  "figure": {
+   "page": 120,
+   "half": "F",
+   "bbox": [
+    352,
+    163,
+    492,
+    300
+   ]
+  },
+  "solution": "$\\triangle\\mathrm{ABP}$에서 $\\overline{\\mathrm{AP}}$와 $\\overline{\\mathrm{DC}}$는 평행하므로\n$\\overline{\\mathrm{AB}}:\\overline{\\mathrm{AD}}=\\overline{\\mathrm{PB}}:\\overline{\\mathrm{PC}}$가 성립한다.\n\n이때 $\\overline{\\mathrm{AB}}=\\sqrt{(-5)^2+(-9-3)^2}=13$,\n$\\overline{\\mathrm{AD}}=\\overline{\\mathrm{AC}}=\\sqrt{4^2+(-3)^2}=5$이므로 $\\overline{\\mathrm{BD}}=8$이고\n$8:5=\\overline{\\mathrm{BC}}:\\overline{\\mathrm{CP}}$가 되어\n점 $\\mathrm{C}$는 $\\overline{\\mathrm{BP}}$를 $8:5$로 내분하는 점이다.\n$\\mathrm{P}$의 좌표를 $(a,\\,b)$라 하면\n$$\\left(\\dfrac{8\\cdot a+5\\cdot(-5)}{8+5},\\ \\dfrac{8\\cdot b+5\\cdot(-9)}{8+5}\\right)=(4,\\,0)$$\n에서 $a=\\dfrac{77}{8}$, $b=\\dfrac{45}{8}$이고 $\\mathrm{P}\\left(\\dfrac{77}{8},\\ \\dfrac{45}{8}\\right)$이다.",
+  "parent": "",
+  "variant": ""
+ },
+ {
+  "id": "FAN-대수-G8-P18",
+  "source": "학원교재",
+  "book": "세쌍둥이 개념편 대수",
+  "page": 120,
+  "num": "G8-연습18",
+  "unit": "대수-3-08",
+  "unitName": "수열 › 등차수열과 등비수열",
+  "type": "삼각형의 무게중심",
+  "stdType": "삼각형의 무게중심",
+  "fanType": null,
+  "level": "상",
+  "kind": "주관식",
+  "body": "삼각형 $\\mathrm{ABC}$에서 세 변 $\\mathrm{AB}$, $\\mathrm{BC}$, $\\mathrm{CA}$의 중점의 좌표가 각각 $(-1,\\,1)$, $(3,\\,2)$, $(1,\\,6)$일 때, 삼각형 $\\mathrm{ABC}$의 무게중심의 좌표는 $(a,\\,b)$이다. 이때 $ab$의 값을 구하시오.",
+  "choices": [],
+  "answer": "3",
+  "figure": null,
+  "solution": "삼각형 $\\mathrm{ABC}$의 무게중심은 각 변의 중점의 무게중심과 같다.\n따라서 무게중심의 좌표는\n$$\\mathrm{G}\\left(\\dfrac{-1+3+1}{3},\\ \\dfrac{1+2+6}{3}\\right)=(1,\\,3)$$\n이다.\n즉, $a=1$, $b=3$이고 $ab=3$이다.",
+  "parent": "",
+  "variant": ""
+ }
+]
