@@ -1,0 +1,197 @@
+[
+ {
+  "unit": "공수1-1-01",
+  "title": "1. 다항식의 덧셈과 뺄셈",
+  "body": "**1. 오름차순과 내림차순**\n다항식을 한 문자에 대하여 차수가 높은 항부터 낮은 항의 순서로 나타내는 것을 내림차순으로 정리한다고 하고 차수가 낮은 항부터 높은 항의 순서로 나타내는 것을 오름차순으로 정리한다고 한다.\n\n**2. 다항식의 덧셈과 뺄셈**\n다항식의 덧셈과 뺄셈을 위해서는 동류항끼리 모아서 계수들을 계산 후 정리한다.\n\n**3. 다항식의 덧셈에 관한 성질**\n세 다항식 $A$, $B$, $C$에 대하여\n(1) 교환법칙 : $A+B=B+A$\n(2) 결합법칙 : $(A+B)+C=A+(B+C)$\n\n**Song's TIP**\n다항식을 한 문자에 대해 오름차순 또는 내림차순으로 정리할 경우 기준 문자를 제외한 나머지 문자는 상수로 생각해야함에 주의하자."
+ },
+ {
+  "unit": "공수1-1-01",
+  "title": "2. 다항식의 곱셈",
+  "body": "**1. 다항식의 곱셈**\n분배법칙을 이용하여 전개한 후 동류항끼리 묶어서 계산한다.\n\n**2. 다항식의 곱셈에 대한 성질**\n세 다항식 $A$, $B$, $C$에 대하여\n(1) 교환법칙 : $AB=BA$\n(2) 결합법칙 : $(AB)C=A(BC)$\n(3) 분배법칙 : $A(B+C)=AB+AC$"
+ },
+ {
+  "unit": "공수1-1-01",
+  "title": "3. 곱셈공식",
+  "body": "**1. 곱셈 공식**\n(1) $(a+b)^2=a^2+2ab+b^2$, $(a-b)^2=a^2-2ab+b^2$\n(2) $(a+b)(a-b)=a^2-b^2$\n(3) $(a+b+c)^2=a^2+b^2+c^2+2ab+2bc+2ca$\n(4) $(a+b)^3=a^3+3a^2b+3ab^2+b^3$,\n$(a-b)^3=a^3-3a^2b+3ab^2-b^3$\n(5) $(a+b)(a^2-ab+b^2)=a^3+b^3$, $(a-b)(a^2+ab+b^2)=a^3-b^3$\n(6) $(a+b+c)(a^2+b^2+c^2-ab-bc-ca)=a^3+b^3+c^3-3abc$\n\n**2. 곱셈공식의 변형**\n(1) $a^2+b^2=(a+b)^2-2ab$\n$a^2+b^2=(a-b)^2+2ab$\n(2) $a^3+b^3=(a+b)^3-3ab(a+b)$\n$a^3-b^3=(a-b)^3+3ab(a-b)$\n(3) $a^2+b^2+c^2=(a+b+c)^2-2(ab+bc+ca)$\n(4) $a^2+b^2+c^2-ab-bc-ca=\\dfrac{1}{2}\\{(a-b)^2+(b-c)^2+(c-a)^2\\}$\n$a^2+b^2+c^2+ab+bc+ca=\\dfrac{1}{2}\\{(a+b)^2+(b+c)^2+(c+a)^2\\}$\n\n**Song's TIP**\n$$a^2+b^2+c^2-ab-bc-ca$$\n$$=\\dfrac{1}{2}\\{2a^2+2b^2+2c^2-2ab-2bc-2ca\\}$$\n$$=\\dfrac{1}{2}\\{(a^2-2ab+b^2)+(b^2-2bc+c^2)+(c^2-2ca+a^2)\\}$$\n$$=\\dfrac{1}{2}\\{(a-b)^2+(b-c)^2+(c-a)^2\\}$$"
+ },
+ {
+  "unit": "공수1-1-01",
+  "title": "4. 다항식의 나눗셈",
+  "body": "다항식의 나눗셈을 위해서는 각 다항식을 내림차순으로 정리한 뒤 자연수의 나눗셈과 같은 방법을 이용하여 계산한다.\n특히, 다항식 $f(x)$를 다항식 $g(x)$로 나눌 때의 몫을 $Q(x)$, 나머지를 $R(x)$라 하면 $f(x)=g(x)Q(x)+R(x)$의 꼴로 나타낼 수 있다.\n(단, ($g(x)$의 차수)>($R(x)$의 차수))\n\n$$\\begin{array}{r}Q(x)\\ \\leftarrow\\ \\text{몫}\\\\ g(x)\\ \\overline{)\\ f(x)}\\\\ \\vdots\\\\ \\overline{R(x)}\\ \\leftarrow\\ \\text{나머지}\\end{array}$$\n$$f(x)=g(x)Q(x)+R(x)$$"
+ },
+ {
+  "unit": "공수1-1-02",
+  "title": "1. 항등식과 미정계수법",
+  "body": "1. 항등식 : 모든 실수 $x$에 대해 항상 성립하는 등식\n   예) $2x+1=2x+1$\n\n2. 항등식의 성질\n   (1) $ax^2+bx+c=0$이 $x$에 대한 항등식이면 $a=0,\\ b=0,\\ c=0$이다.\n   (2) $ax^2+bx+c=a'x^2+b'x+c'$이 $x$에 대한 항등식이면 $a=a',\\ b=b',\\ c=c'$이다.\n\n3. 미정계수법 : 항등식의 성질을 이용하여 정해지지 않은 계수의 값을 정하는 방법\n   (1) 계수비교법 : 좌변과 우변의 동류항의 계수가 같음을 이용하는 방법\n   (2) 수치대입법 : 양변에 적당한 수를 대입하여 계수를 정하는 방법\n\n**Song's TIP** $2x+1=3$과 같은 방정식은 특정한 $x$의 값에 대해서만 성립하는 등식이다."
+ },
+ {
+  "unit": "공수1-1-02",
+  "title": "2. 나머지정리와 인수정리",
+  "body": "1. 나머지 정리\n   (1) $x$에 대한 다항식 $f(x)$를 $x-\\alpha$로 나눈 나머지는 $f(\\alpha)$이다.\n   (2) $x$에 대한 다항식 $f(x)$를 $ax+b$로 나눈 나머지는 $f\\!\\left(-\\dfrac{b}{a}\\right)$이다.\n\n2. 인수정리 : $f(x)$를 $x-\\alpha$로 나눈 나머지가 $0$ $\\Leftrightarrow$ $f(x)$는 $x-\\alpha$로 나누어떨어진다.\n\n3. 조립제법 : 다항식을 일차식으로 나눌 때 계수만을 이용하여 몫과 나머지를 구하는 방법\n\n**Song's TIP** $f(x)$를 $x-\\alpha$로 나눌 때 몫을 $Q(x)$, 나머지를 $r$이라 하면 $f(x)=(x-\\alpha)\\cdot Q(x)+r$이다.\n이때, 주어진 식은 $x$에 관한 항등식이므로 $x=\\alpha$를 대입하면 $f(\\alpha)=(\\alpha-\\alpha)\\cdot Q(\\alpha)+r$이 되어 $f(\\alpha)=r$임을 알 수 있다."
+ },
+ {
+  "unit": "공수1-1-02",
+  "title": "3. 인수분해",
+  "body": "인수분해란 하나의 다항식을 두 개 이상의 다항식의 곱으로 나타내는 것이며 주로 사용되는 인수분해 공식은 아래와 같다.\n(1) $a^2\\pm 2ab+b^2=(a\\pm b)^2$ (복부호 동순)\n(2) $a^2-b^2=(a+b)(a-b)$\n(3) $x^2+(a+b)x+ab=(x+a)(x+b)$\n(4) $acx^2+(ad+bc)x+bd=(ax+b)(cx+d)$\n(5) $a^3+b^3=(a+b)(a^2-ab+b^2)$, $a^3-b^3=(a-b)(a^2+ab+b^2)$\n(6) $a^3+3a^2b+3ab^2+b^3=(a+b)^3$, $a^3-3a^2b+3ab^2-b^3=(a-b)^3$\n(7) $a^2+b^2+c^2+2ab+2bc+2ca=(a+b+c)^2$\n(8) $a^4+a^2b^2+b^4=(a^2+ab+b^2)(a^2-ab+b^2)$\n(9) $a^3+b^3+c^3-3abc=(a+b+c)(a^2+b^2+c^2-ab-bc-ca)$\n\n**Song's TIP**\n$$a^4+a^2b^2+b^4=a^4+2a^2b^2+b^4-a^2b^2=(a^2+b^2)^2-(ab)^2$$\n$$=(a^2+ab+b^2)(a^2-ab+b^2)$$"
+ },
+ {
+  "unit": "공수1-1-02",
+  "title": "4. 복잡한 식의 인수분해",
+  "body": "1. 공통부분이 있는 다항식의 인수분해 : 공통부분을 치환하여 인수분해 한다.\n\n2. 복이차식($ax^4+bx^2+c$꼴)의 인수분해\n   (1) $x^2=t$로 치환 후 인수분해 한다.\n   (2) (1)에서 인수분해가 불가능한 경우 : $A^2-B^2$의 꼴로 변형하여 인수분해 한다.\n\n3. 여러 문자를 포함한 식의 인수분해\n   (1) 차수가 가장 낮은 문자를 기준으로 정리하여 인수분해 한다.\n   (2) 같은 차수의 식인 경우 어느 한 문자를 기준으로 정리 후 인수분해 한다.\n\n4. 인수정리를 이용한 인수분해\n   (1) 다항식 $f(x)$에 대하여 $f(\\alpha)=0$을 만족하는 $\\alpha$의 값을 찾는다.\n   (2) 조립제법을 이용하여 $x-\\alpha$로 나눈 몫과 나머지를 구한다."
+ },
+ {
+  "unit": "공수1-2-03",
+  "title": "1. 복소수의 정의",
+  "body": "1. 허수단위 $i$ : 제곱해서 $-1$이 되는 수를 허수단위 $i$라 한다. (즉, $i=\\sqrt{-1}$, $i^2=-1$)\n2. 복소수 : 두 실수 $a$, $b$에 대하여 $a+bi$의 꼴로 나타내는 수를 복소수라 하고, $a$를 이 복소수의 실수 부분, $b$를 이 복소수의 허수 부분이라 한다.\n3. 순허수 : $z=a+bi$꼴의 복소수에서 실수부분 $a=0$, 허수부분 $b\\neq0$인 복소수를 순허수라 한다."
+ },
+ {
+  "unit": "공수1-2-03",
+  "title": "2. 복소수가 서로 같을 조건",
+  "body": "네 실수 $a$, $b$, $c$, $d$에 대하여\n(1) $a+bi=0 \\Leftrightarrow a=0,\\ b=0$\n(2) $a+bi=c+di \\Leftrightarrow a=c,\\ b=d$"
+ },
+ {
+  "unit": "공수1-2-03",
+  "title": "3. 켤레복소수",
+  "body": "1. $a$, $b$가 실수일 때, 복소수 $a+bi$에 대하여 복소수 $a-bi$를 $a+bi$의 켤레복소수라 하고, 기호 $\\overline{a+bi}$로 나타낸다.\n2. 켤레복소수의 성질\n두 복소수 $\\alpha$, $\\beta$에 대하여\n(1) $\\overline{\\alpha+\\beta}=\\overline{\\alpha}+\\overline{\\beta}$\n(2) $\\overline{\\alpha-\\beta}=\\overline{\\alpha}-\\overline{\\beta}$\n(3) $\\overline{\\alpha\\cdot\\beta}=\\overline{\\alpha}\\cdot\\overline{\\beta}$\n(4) $\\overline{\\left(\\dfrac{\\alpha}{\\beta}\\right)}=\\dfrac{\\overline{\\alpha}}{\\overline{\\beta}}$ (단, $\\beta\\neq0$)\n\n**Song's TIP**\n$\\alpha=a+bi$, $\\beta=c+di$라 할 때, $\\overline{\\alpha}=a-bi$, $\\overline{\\beta}=c-di$이므로\n$$\\overline{\\alpha+\\beta}=\\overline{(a+bi)+(c+di)}=\\overline{(a+c)+(b+d)i}=(a+c)-(b+d)i=(a-bi)+(c-di)=\\overline{\\alpha}+\\overline{\\beta}$$"
+ },
+ {
+  "unit": "공수1-2-03",
+  "title": "4. 복소수의 사칙연산",
+  "body": "네 실수 $a$, $b$, $c$, $d$에 대하여\n(1) 덧셈 : $(a+bi)+(c+di)=(a+c)+(b+d)i$\n(2) 뺄셈 : $(a+bi)-(c+di)=(a-c)+(b-d)i$\n(3) 곱셈 : $(a+bi)(c+di)=(ac-bd)+(ad+bc)i$\n(4) 나눗셈 : $\\dfrac{a+bi}{c+di}=\\dfrac{ac+bd}{c^2+d^2}+\\dfrac{bc-ad}{c^2+d^2}i$ (단, $c+di\\neq0$)"
+ },
+ {
+  "unit": "공수1-2-03",
+  "title": "5. 복소수의 연산에 대한 성질",
+  "body": "(1) $a<0$, $b<0$이면 $\\sqrt{a}\\,\\sqrt{b}=-\\sqrt{ab}$\n(2) $a>0$, $b<0$이면 $\\dfrac{\\sqrt{a}}{\\sqrt{b}}=-\\sqrt{\\dfrac ab}$\n\n**Song's TIP**\n$a=-2$, $b=-3$인 경우\n$$\\sqrt{a}\\,\\sqrt{b}=\\sqrt{-2}\\,\\sqrt{-3}=\\sqrt{2}\\,i\\,\\sqrt{3}\\,i=\\sqrt{6}\\,i^2=-\\sqrt{(-2)(-3)}=-\\sqrt{ab}$$"
+ },
+ {
+  "unit": "공수1-2-04",
+  "title": "6. 이차방정식의 풀이",
+  "body": "1. 인수분해를 이용한 풀이\n이차방정식 $(ax-b)(cx-d)=0$이면\n$ax-b=0$ 또는 $cx-d=0$\n$\\therefore x=\\dfrac ba$ 또는 $x=\\dfrac dc$\n\n2. 근의 공식을 이용한 풀이\n(1) 이차방정식 $ax^2+bx+c=0$의 근은 $x=\\dfrac{-b\\pm\\sqrt{b^2-4ac}}{2a}$이다.\n(2) 이차방정식 $ax^2+2b'x+c=0$의 근은 $x=\\dfrac{-b'\\pm\\sqrt{b'^2-ac}}{a}$이다."
+ },
+ {
+  "unit": "공수1-2-04",
+  "title": "7. 이차방정식의 근의 판별",
+  "body": "계수가 실수인 이차방정식 $ax^2+bx+c=0$의 판별식을 $D$라 하면\n(1) $D=b^2-4ac>0$일 때, 서로 다른 두 실근을 갖는다.\n(2) $D=b^2-4ac=0$일 때, 중근(실근)을 갖는다.\n(3) $D=b^2-4ac<0$일 때, 서로 다른 두 허근을 갖는다.\n\n**Song's TIP**\n1. 복소수의 개념을 배우지 않은 중등수학에서는 $D<0$일 때, 이차방정식의 해가 존재하지 않지만 수를 복소수까지 확장한 고등수학에서는 $D<0$일 때, 이차방정식이 서로 다른 두 허근을 갖는다는 사실에 주의하자.\n2. 이차방정식의 계수는 복소수일 수도 있으며 판별식 $D$는 계수가 실수인 이차방정식에서만 사용될 수 있다."
+ },
+ {
+  "unit": "공수1-2-04",
+  "title": "8. 이차방정식의 근과 계수와의 관계",
+  "body": "1. 이차방정식 $ax^2+bx+c=0$의 두 근을 $\\alpha$, $\\beta$라 하면\n(1) 두 근의 합 : $\\alpha+\\beta=-\\dfrac ba$\n(2) 두 근의 곱 : $\\alpha\\beta=\\dfrac ca$\n\n2. 이차방정식의 작성\n$x^2$의 계수가 $1$이고 $\\alpha$, $\\beta$를 두 근으로 하는 이차방정식은\n$(x-\\alpha)(x-\\beta)=0$, 즉 $x^2-(\\alpha+\\beta)x+\\alpha\\beta=0$\n\n**Song's TIP**\n이차방정식의 근과 계수와의 관계는 $\\alpha$와 $\\beta$가 허근인 경우에도 사용 가능하다."
+ },
+ {
+  "unit": "공수1-2-04",
+  "title": "9. 이차방정식의 켤레근",
+  "body": "1. 계수가 유리수인 이차방정식이 $a+b\\sqrt{m}$을 근으로 가지면 $a-b\\sqrt{m}$도 근이다. (단, $a$, $b$는 유리수, $b\\neq0$, $\\sqrt{m}$은 무리수)\n2. 계수가 실수인 이차방정식이 $a+bi$를 근으로 가지면 $a-bi$도 근이다. (단, $a$, $b$는 실수, $b\\neq0$, $i=\\sqrt{-1}$)\n\n**Song's TIP**\n계수가 실수인 이차방정식 $ax^2+bx+c=0$의 한 근을 복소수 $\\alpha=a+bi$라 하면 근의 성질에 의해 $a\\alpha^2+b\\alpha+c=0$이 성립한다.\n이제 양변에 켤레복소수를 취하면\n$$\\overline{a\\alpha^2+b\\alpha+c}=\\overline{a\\alpha^2}+\\overline{b\\alpha}+\\overline{c}=a(\\overline{\\alpha})^2+b\\overline{\\alpha}+c=0$$\n가 되어 $\\overline{\\alpha}$도 주어진 이차방정식의 근임을 알 수 있다."
+ },
+ {
+  "unit": "공수1-2-05",
+  "title": "1. 이차방정식과 이차함수와의 관계",
+  "body": "이차방정식 $ax^2+bx+c=0$의 해는 이차함수 $y=ax^2+bx+c$와 $x$축의 교점의 $x$좌표와 같다.\n\n이차방정식 $ax^2+bx+c=0$의 판별식 $D$의 부호에 따른 이차함수 $y=ax^2+bx+c\\ (a>0)$의 그래프의 개형을 정리하면 아래 표와 같다.\n\n| $D=b^2-4ac$ | $D>0$ | $D=0$ | $D<0$ |\n|---|---|---|---|\n| 이차함수 $y=ax^2+bx+c$의 그래프 | $x$축과 두 점에서 만나는 포물선 | $x$축에 접하는 포물선 | $x$축 위쪽에 있는 포물선 |\n| $x$축과의 관계 | 서로 다른 두 점에서 만난다. | 접한다. (한 점에서 만난다.) | 만나지 않는다. |\n| 이차방정식 $ax^2+bx+c=0$의 실근의 개수 | 2개 | 1개 | 0개 |"
+ },
+ {
+  "unit": "공수1-2-05",
+  "title": "2. 이차함수의 그래프와 직선의 위치관계",
+  "body": "이차함수 $y=ax^2+bx+c$의 그래프와 직선 $y=mx+n$의 위치 관계는 두 식을 연립하여 만든 이차방정식 $ax^2+bx+c=mx+n$의 판별식을 $D$의 부호에 의해 결정된다.\n\n(1) $D>0$ $\\Leftrightarrow$ 서로 다른 두 점에서 만난다.\n(2) $D=0$ $\\Leftrightarrow$ 한 점에서 만난다.(접한다.)\n(3) $D<0$ $\\Leftrightarrow$ 만나지 않는다."
+ },
+ {
+  "unit": "공수1-2-05",
+  "title": "3. 이차함수의 최대·최소",
+  "body": "이차함수 $f(x)=ax^2+bx+c=a(x-p)^2+q$의 최대·최소는 주어진 정의역의 범위에 따라 그래프를 그려서 구한다.\n\n**1. 정의역이 실수 전체의 집합인 경우**\n\n| $a>0$인 경우 | $a<0$인 경우 |\n|---|---|\n| 아래로 볼록한 포물선, 꼭짓점 $(p,\\,q)$ | 위로 볼록한 포물선, 꼭짓점 $(p,\\,q)$ |\n| 최솟값은 $f(p)=q$이고 최댓값은 없다. | 최댓값은 $f(p)=q$이고 최솟값은 없다. |\n\n**2. 꼭짓점의 $x$좌표 $p$가 정의역 $\\{x\\,|\\,\\alpha\\le x\\le\\beta\\}$에 포함되는 경우**\n\n$a>0$인 경우, $a<0$인 경우 모두\n$f(\\alpha)$, $f(\\beta)$, $f(p)$의 값 중 가장 큰 것이 최댓값, 가장 작은 것이 최솟값이다.\n\n**3. 꼭짓점의 $x$좌표 $p$가 정의역 $\\{x\\,|\\,\\alpha\\le x\\le\\beta\\}$에 포함되지 않는 경우**\n\n$a>0$인 경우, $a<0$인 경우 모두\n$f(\\alpha)$, $f(\\beta)$의 값 중 큰 것이 최댓값이고, 작은 것이 최솟값이다."
+ },
+ {
+  "unit": "공수1-2-06",
+  "title": "1. 삼차방정식과 사차방정식",
+  "body": "1. 다항식 $f(x)$가 $x$에 대한 삼차식(사차식)일 때 방정식 $f(x)=0$를 삼차방정식(사차방정식)이라 한다.\n\n2. 삼·사차 방정식의 풀이\n(1) $AB=0 \\Leftrightarrow A=0$ 또는 $B=0$ 임을 이용한다.\n(2) 인수정리($f(x)$를 $x-\\alpha$로 나눈 나머지가 $0 \\Leftrightarrow f(x)$는 $x-\\alpha$로 나누어떨어진다.)를 이용하여 $f(x)=(x-\\alpha)Q(x)$의 꼴로 고친 후 (1)의 방법을 이용한다.\n(3) 공통부분이 있는 경우 : 공통부분을 치환 후 인수분해 한다.\n(4) 특수한 형태의 사차방정식의 경우 : 사차식의 인수분해를 이용하여 계산한다."
+ },
+ {
+  "unit": "공수1-2-06",
+  "title": "2. 삼차방정식과 근과 계수와의 관계",
+  "body": "1. 삼차방정식의 근과 계수의 관계\n$ax^3+bx^2+cx+d=0\\ (a\\neq 0)$의 세 근을 $\\alpha,\\ \\beta,\\ \\gamma$ 라 할 때,\n(1) $\\alpha+\\beta+\\gamma=-\\dfrac{b}{a}$\n(2) $\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=\\dfrac{c}{a}$\n(3) $\\alpha\\beta\\gamma=-\\dfrac{d}{a}$\n\n2. 삼차방정식의 작성\n$x^3$의 계수가 $1$이고 $\\alpha,\\ \\beta,\\ \\gamma$ 를 세 근으로 하는 삼차방정식은\n$$(x-\\alpha)(x-\\beta)(x-\\gamma)=0$$\n즉, $x^3-(\\alpha+\\beta+\\gamma)x^2+(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha)x-\\alpha\\beta\\gamma=0$ 이다.\n\n**Song's TIP**\n$ax^3+bx^2+cx+d=0\\ (a\\neq 0)$가 $\\alpha,\\ \\beta,\\ \\gamma$를 세 근으로 하는 경우\n$ax^3+bx^2+cx+d=a(x-\\alpha)(x-\\beta)(x-\\gamma)$의 꼴로 나타내어지고 이를 전개하면\n$ax^3+bx^2+cx+d=a\\{x^3-(\\alpha+\\beta+\\gamma)x^2+(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha)x-\\alpha\\beta\\gamma\\}$ 이다.\n이때 주어진 식은 $x$에 관한 항등식이므로 좌변과 우변의 계수를 비교하면 삼차방정식의 근과 계수와의 관계를 얻을 수 있다."
+ },
+ {
+  "unit": "공수1-2-06",
+  "title": "3. 삼차방정식의 켤레근",
+  "body": "삼차방정식 $ax^3+bx^2+cx+d=0$에 대하여\n(1) $a,\\ b,\\ c,\\ d$가 유리수일 때 : $p+q\\sqrt{m}$ 이 근이면 $p-q\\sqrt{m}$ 도 근이다. (단, $p,\\ q$는 유리수, $q\\neq 0$, $\\sqrt{m}$은 무리수)\n(2) $a,\\ b,\\ c,\\ d$가 실수일 때 : $m+ni$ 가 근이면 $m-ni$ 도 근이다. (단, $m,\\ n$는 실수, $i=\\sqrt{-1}$)\n\n**Song's TIP**\n$ax^3+bx^2+cx+d=0$ 의 한 근이 $z=m+ni$라 하면 $az^3+bz^2+cz+d=0$가 성립한다.\n이제 양변에 켤레복소수를 취하면 $\\overline{az^3+bz^2+cz+d}=\\overline{0}$ 이고 이를 정리하면 $a(\\overline{z})^3+b(\\overline{z})^2+c\\overline{z}+d=0$ 이므로 $\\overline{z}=m-ni$도 주어진 방정식의 근임을 알 수 있다."
+ },
+ {
+  "unit": "공수1-2-06",
+  "title": "4. 방정식 x³=1의 한 허근 ω의 성질",
+  "body": "$x^3=1$의 한 허근을 $\\omega$라 하면\n(1) $\\omega^3=1,\\ \\omega^2+\\omega+1=0$\n(2) $\\omega+\\overline{\\omega}=-1,\\ \\omega\\overline{\\omega}=1,\\ \\omega^2=\\overline{\\omega}$\n(3) $\\overline{\\omega}=\\omega^2=-1-\\omega=\\dfrac{1}{\\omega}$\n\n**Song's TIP**\n$x^3-1=(x-1)(x^2+x+1)=0$ 이므로 $x-1=0$ 또는 $x^2+x+1=0$ 이다. 이때, $x=1$은 실수이므로 $x^3=1$의 한 허근 $\\omega$는 $x^2+x+1=0$의 한 근이고 근의 공식에 의해 $\\omega=\\dfrac{-1\\pm\\sqrt{3}\\,i}{2}$임을 알 수 있다. 한편, $\\omega$가 $x^2+x+1=0$의 한 근이므로 이차방정식의 켤레근의 성질에 의해 $\\overline{\\omega}$도 주어진 이차방정식의 근이며 근과 계수와의 관계를 이용하면 위의 결과를 얻을 수 있다."
+ },
+ {
+  "unit": "공수1-2-06",
+  "title": "5. 연립이차방정식",
+  "body": "1. 일차방정식과 이차방정식을 연립하는 경우\n일차방정식을 한 문제에 관해 정리한 후 이차방정식에 대입하여 푼다.\n\n2. 이차방정식과 이차방정식을 연립하는 경우\n(1) 인수분해 가능한 이차식이 있는 경우 : 인수분해 후 두 개의 일차식으로 나타내어 일차방정식과 이차방정식의 연립방정식 해법을 이용한다.\n(2) 인수분해가 되지 않는 경우 : 상수항 소거 또는 이차항 소거를 이용하여 분해된 일차식의 형태를 만든다.\n(3) 대칭형($x+y$와 $xy$가 반복되는 형태)의 연립방정식인 경우: $x+y=a,\\ xy=b$로 치환하여 $x,\\ y$가 $t$에 대한 이차방정식 $t^2-at+b=0$의 두 근임을 이용한다."
+ },
+ {
+  "unit": "공수1-3-07",
+  "title": "1. 부등식 ax>b의 풀이",
+  "body": "1. $a>0$일 때, $x>\\dfrac{b}{a}$\n2. $a<0$일 때, $x<\\dfrac{b}{a}$\n3. $a=0$일 때, $\\begin{cases}b\\ge 0\\text{이면 해는 없다.(불능)}\\\\ b<0\\text{이면 }x\\text{는 모든 실수이다.(부정)}\\end{cases}$\n\n**Song's TIP**\n$ax>b$에서 $a=0$인 경우 즉, $0\\cdot x>b$인 경우\n$b=1$이면 $0\\cdot x>1$이 되어 주어진 부등식은 성립이 불가능하다.\n$b=0$이면 $0\\cdot x>0$가 되어 주어진 부등식은 성립이 불가능하다.\n$b=-1$이면 $0\\cdot x>-1$이 되어 주어진 부등식은 항상 성립한다."
+ },
+ {
+  "unit": "공수1-3-07",
+  "title": "2. 연립부등식",
+  "body": "1. 두 개 이상의 부등식을 하나의 쌍으로 묶어 놓은 것을 연립부등식이라 하고, 각 부등식을 동시에 만족하는 공통 범위를 구하는 것을 연립부등식을 푼다고 한다.\n2. $A<B<C$ 꼴의 부등식은 : 연립부등식 $\\begin{cases}A<B\\\\ B<C\\end{cases}$ 를 푼다.\n(수직선 위에 $a$, $b$를 나타내어 두 부등식의 해의 공통 범위 $a<x<b$를 구하는 그림)"
+ },
+ {
+  "unit": "공수1-3-08",
+  "title": "3. 이차부등식과 이차함수",
+  "body": "1. $ax^2+bx+c>0$ (또는 $ax^2+bx+c\\le 0$ 단, $a\\ne 0$)과 같이 좌변이 $x$에 관한 이차식인 부등식을 이차부등식이라고 한다.\n2. 이차부등식의 해와 이차함수의 그래프의 관계\n(1) $ax^2+bx+c>0$의 경우 $y=ax^2+bx+c$ 에서 $x$축보다 위쪽에 있는 부분의 $x$값의 범위를 구하면 된다.\n(2) $ax^2+bx+c\\le 0$의 경우 $y=ax^2+bx+c$ 에서 $x$축보다 아래쪽 또는 $x$축 위에 있는 부분의 $x$값의 범위를 구하면 된다.\n(3) $\\alpha<\\beta$일 때, 다음 이차 부등식의 해는 아래 표와 같다.\n\n| 그래프 | 부등식 | 해 | 부등식 | 해 |\n|---|---|---|---|---|\n| $x$축과 두 점 $\\alpha$, $\\beta$에서 만날 때 | $(x-\\alpha)(x-\\beta)>0$ | $x<\\alpha$ 또는 $x>\\beta$ | $(x-\\alpha)(x-\\beta)<0$ | $\\alpha<x<\\beta$ |\n| $x$축과 한 점 $\\alpha$에서 접할 때 | $(x-\\alpha)^2>0$ | $x\\ne\\alpha$인 모든 실수 | $(x-\\alpha)^2<0$ | 해는 없다. |\n| $x$축과 한 점 $\\alpha$에서 접할 때 | $(x-\\alpha)^2\\le 0$ | $x=\\alpha$ | $(x-\\alpha)^2\\ge 0$ | 해는 모든 실수 |"
+ },
+ {
+  "unit": "공수1-3-08",
+  "title": "4. 이차부등식이 항상 성립할 조건",
+  "body": "1. $ax^2+bx+c>0$이 항상 성립할 조건\n$$a>0,\\ D=b^2-4ac<0$$\n2. $ax^2+bx+c\\ge 0$이 항상 성립할 조건\n$$a>0,\\ D=b^2-4ac\\le 0$$\n3. $ax^2+bx+c<0$이 항상 성립할 조건\n$$a<0,\\ D=b^2-4ac<0$$\n4. $ax^2+bx+c\\le 0$이 항상 성립할 조건\n$$a<0,\\ D=b^2-4ac\\le 0$$\n\n**Song's TIP**\n$ax^2+bx+c>0$이 항상 성립하려면 $y=ax^2+bx+c$가 아래로 볼록하고 $x$축보다 항상 위에 있어야 한다. 즉 $a>0$이어야 하고 $y=ax^2+bx+c$이 $x$축보다 위에 있게 되면 $x$축과의 교점이 생기지 않아 이차방정식 $ax^2+bx+c=0$는 실근을 갖지 않는다.\n즉, 이차방정식의 판별식 $D=b^2-4ac<0$이어야 한다."
+ },
+ {
+  "unit": "공수1-3-08",
+  "title": "5. 이차방정식의 실근의 부호",
+  "body": "계수가 실수인 이차방정식 $ax^2+bx+c=0$의 두 실근을 $\\alpha$, $\\beta$, 판별식을 $D$라 할 때,\n1. 두 근이 모두 양수 : $\\alpha+\\beta>0$, $\\alpha\\beta>0$, $D\\ge 0$\n2. 두 근이 모두 음수 : $\\alpha+\\beta<0$, $\\alpha\\beta>0$, $D\\ge 0$\n3. 두 근의 부호가 서로 다르다 : $\\alpha\\beta<0$\n\n**Song's TIP**\n이차방정식 $ax^2+bx+c=0$의 두 실근 $\\alpha$, $\\beta$에 대하여 $\\alpha$와 $\\beta$의 부호가 서로 다르려면 우선 주어진 방정식이 서로 다른 두 실근을 가져야 한다. 만일, $\\alpha\\beta<0$이면 근과 계수와의 관계에 의해 $\\dfrac{c}{a}<0$ 즉, $ac<0$이고 $b^2\\ge 0$이다. 따라서, 판별식 $D=b^2-4ac>0$임을 알 수 있다. 즉, $\\alpha\\beta<0$를 만족하는 경우 판별식에 대한 조사는 별도로 하지 않아도 무관하다."
+ },
+ {
+  "unit": "공수1-3-08",
+  "title": "6. 이차방정식의 근의 분리",
+  "body": "이차방정식 $ax^2+bx+c=0\\,(a>0)$의 판별식을 $D$라 할 때, $f(x)=ax^2+bx+c$라 하면\n1. 두 근이 모두 $p$보다 크다 : $D\\ge 0$, $f(p)>0$, $-\\dfrac{b}{2a}>p$\n2. 두 근이 모두 $p$보다 작다 : $D\\ge 0$, $f(p)>0$, $-\\dfrac{b}{2a}<p$\n3. 두 근 사이에 $p$가 있다 : $f(p)<0$\n4. 두 근이 $p$, $q$ $(p<q)$사이에 있다 :\n$$D\\ge 0,\\ f(p)>0,\\ f(q)>0,\\ p<-\\dfrac{b}{2a}<q$$"
+ },
+ {
+  "unit": "공수1-4-09",
+  "title": "1. 경우의 수",
+  "body": "**(1) 합의 법칙**\n두 사건 $A$, $B$가 동시에 일어나지 않을 때, 사건 $A$, $B$가 일어나는 경우의 수가 각각 $m$가지, $n$가지이면 사건 $A$ 또는 $B$가 일어나는 경우의 수는 $m+n$ (가지)이다.\n\n**(2) 곱의 법칙**\n두 사건 $A$, $B$가 일어나는 경우의 수가 각각 $m$가지, $n$가지이면 두 사건 $A$, $B$가 동시에 일어나는 경우의 수는 $m\\times n$ (가지)이다.\n\n**Song's TIP**\n일반적으로 문제에서 곱의 법칙을 이용할 때 두 사건 $A$, $B$가 동시에 일어난다고 생각하는 것 보다는 두 사건이 연달아 일어난다고 생각하는 것이 편하다."
+ },
+ {
+  "unit": "공수1-4-09",
+  "title": "2. 순열",
+  "body": "**(1)** 서로 다른 $n$개에서 중복 없이 $r$개를 택하여 일렬로 배열하는 방법의 수를 순열이라 한다.\n$${}_n\\mathrm{P}_r=\\overbrace{n(n-1)(n-2)\\cdots(n-r+1)}^{r\\text{개}}\\ (\\text{단, } 0<r\\le n)$$\n\n**(2) 순열의 수**\n① ${}_n\\mathrm{P}_r=\\dfrac{n!}{(n-r)!}\\ (0\\le r\\le n)$\n② ${}_n\\mathrm{P}_n=n(n-1)(n-2)\\cdots3\\cdot2\\cdot1=n!$\n③ ${}_n\\mathrm{P}_0=1$, $0!=1$\n\n**Song's TIP**\n$0!=1$로 정의하여야 $r=n$인 경우에도 ${}_n\\mathrm{P}_r=\\dfrac{n!}{(n-r)!}$로 일반화 가능하다."
+ },
+ {
+  "unit": "공수1-4-09",
+  "title": "1. 조합",
+  "body": "(1) 서로 다른 $n$개에서 순서를 생각하지 않고 $r$개를 뽑는 방법의 수를 조합이라 한다.\n\n(2) 조합의 수\n\n① 서로 다른 $n$개에서 $r$개를 택하는 조합의 수\n$${}_n\\mathrm{C}_r=\\dfrac{{}_n\\mathrm{P}_r}{r!}=\\dfrac{n(n-1)(n-2)\\cdots(n-r+1)}{r!}=\\dfrac{n!}{r!(n-r)!}\\ (\\text{단, } 0\\le r\\le n)$$\n\n② ${}_n\\mathrm{C}_0=1$, ${}_n\\mathrm{C}_n=1$, ${}_n\\mathrm{C}_1=n$\n\n③ ${}_n\\mathrm{C}_r={}_n\\mathrm{C}_{n-r}$ (단, $0\\le r\\le n$)\n\n④ ${}_n\\mathrm{C}_r={}_{n-1}\\mathrm{C}_r+{}_{n-1}\\mathrm{C}_{r-1}$ (단, $1\\le r<n$)\n\n**Song's TIP**\n${}_n\\mathrm{P}_r$은 서로 다른 $n$개에서 $r$개를 택하여 일렬로 배열하는 방법의 수이므로 이 경우의 수 중 $r$개가 배열된 방법의 수인 $r!$로 ${}_n\\mathrm{P}_r$을 나누어 주면 $r$개를 순서관계 없이 택하는 방법인 조합의 수를 계산할 수 있다."
+ },
+ {
+  "unit": "공수1-4-09",
+  "title": "2. 분할과 분배",
+  "body": "여러 개의 물건을 몇 개의 묶음으로 나누는 것을 분할이라 하고, 그 묶음을 나누어 주는 것을 분배라 한다.\n\n서로 다른 $n$개의 물건이 있을 때 (단, $p+q+r=n$)\n$p$개, $q$개, $r$개의 세 묶음으로 분할하는(나누는) 방법의 수는\n\n① $p$, $q$, $r$가 모두 다른 수인 경우: ${}_n\\mathrm{C}_p\\times{}_{n-p}\\mathrm{C}_q\\times{}_r\\mathrm{C}_r$\n\n② $p$, $q$, $r$ 중 어느 두 수가 같은 경우: ${}_n\\mathrm{C}_p\\times{}_{n-p}\\mathrm{C}_q\\times{}_r\\mathrm{C}_r\\times\\dfrac{1}{2!}$\n\n③ $p$, $q$, $r$의 세 수가 모두 같은 경우: ${}_n\\mathrm{C}_p\\times{}_{n-p}\\mathrm{C}_q\\times{}_r\\mathrm{C}_r\\times\\dfrac{1}{3!}$\n\n세 사람에게 각각 $p$개, $q$개, $r$개씩 분배하는(나누어 주는) 방법의 수는 (각각의 분할 방법의 수)$\\times3!$이다.\n\n**Song's TIP**\n모든 문제는 분할 후 분배의 순서로 생각하면 된다."
+ },
+ {
+  "unit": "공수1-5-10",
+  "title": "1. 행렬",
+  "body": "(1) 행렬의 정의\n임의의 수나 문자를 ( ) 안에 직사각형 모양으로 늘어놓은 것\n\n(2) 행렬의 표기\n$$M=\\begin{pmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & \\cdots & \\vdots \\\\ a_{m1} & a_{m2} & \\cdots & a_{mn} \\end{pmatrix} \\ \\Rightarrow\\ M=(a_{ij})$$\n(가로줄이 위에서부터 제1행, 제2행, …, 세로줄이 왼쪽부터 제1열, 제2열, …)\n행렬 $M$의 제$i$행, 제$j$열의 만나는 위치에 있는 원소를 $a_{ij}$로 나타내고, 이를 행렬 $M$의 $(i,\\,j)$성분 또는 $(i,\\,j)$원소라 하며, $M=(a_{ij})$로 나타낸다.\n\n(3) 특히 $m=n$일 때 행렬 $M$을 $n$차 정사각행렬이라 한다.\n\n**Song's TIP**\n$A=(a_{ij})$, $B=(b_{ij})$에 대하여\n(1) 두 행렬 $A,\\,B$의 크기가 같고\n(2) $(a_{ij})=(b_{ij}) \\Leftrightarrow \\begin{pmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{pmatrix}=\\begin{pmatrix} b_{11} & b_{12} \\\\ b_{21} & b_{22} \\end{pmatrix}$ 일 때\n두 행렬 $A,\\,B$는 서로 같은 행렬이라고 한다."
+ },
+ {
+  "unit": "공수1-5-10",
+  "title": "2. 행렬의 덧셈, 뺄셈, 실수배",
+  "body": "(1) 행렬의 덧셈, 뺄셈\n$A=\\begin{pmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{pmatrix}$, $B=\\begin{pmatrix} b_{11} & b_{12} \\\\ b_{21} & b_{22} \\end{pmatrix}$에 대하여\n$$A\\pm B=\\begin{pmatrix} a_{11}\\pm b_{11} & a_{12}\\pm b_{12} \\\\ a_{21}\\pm b_{21} & a_{22}\\pm b_{22} \\end{pmatrix} \\ (단,\\ 복호동순)$$\n\n(2) 행렬의 실수배\n$$A=\\begin{pmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{pmatrix} \\ \\Rightarrow\\ kA=\\begin{pmatrix} ka_{11} & ka_{12} \\\\ ka_{21} & ka_{22} \\end{pmatrix} \\ (단\\ k는\\ 실수)$$\n\n6. 영행렬 : 행렬의 모든 원소가 $0$인 행렬\n① $kO=O$  ② $0A=O$\n\n**Song's TIP**\n이차 정사각 행렬 $O$이 영행렬이면 $O=\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$ 이다."
+ },
+ {
+  "unit": "공수1-5-10",
+  "title": "3. 행렬의 곱셈",
+  "body": "(1) 행렬의 곱셈 유형\n( i ) $$\\begin{pmatrix} a_1 & a_2 & \\cdots & a_n \\end{pmatrix}\\begin{pmatrix} b_1 \\\\ b_2 \\\\ \\vdots \\\\ b_n \\end{pmatrix}=a_1b_1+a_2b_2+\\cdots+a_nb_n$$\n( ii ) $$\\begin{pmatrix} a_1 & a_2 \\\\ a_3 & a_4 \\end{pmatrix}\\begin{pmatrix} b_1 \\\\ b_2 \\end{pmatrix}=\\begin{pmatrix} a_1b_1+a_2b_2 \\\\ a_3b_1+a_4b_2 \\end{pmatrix}$$\n(iii) $$\\begin{pmatrix} a_1 & a_2 \\\\ a_3 & a_4 \\end{pmatrix}\\begin{pmatrix} b_1 & b_2 \\\\ b_3 & b_4 \\end{pmatrix}=\\begin{pmatrix} a_1b_1+a_2b_3 & a_1b_2+a_2b_4 \\\\ a_3b_1+a_4b_3 & a_3b_2+a_4b_4 \\end{pmatrix}$$\n\n(2) $A,\\,B,\\,C$가 아래의 곱이 정의되는 임의의 행렬일 때\n( i ) 교환법칙 : $AB\\ne BA$, $AE=EA=A$ (단, $E$ : 단위행렬)\n( ii ) 분배법칙 : $A(B+C)=AB+AC$, $(A+B)C=AC+BC$\n(iii) 결합법칙 : $(AB)C=A(BC)$, $(kA)B=k(AB)=A(kB)$\n\n**Song's TIP**\n행렬 $A$가 $m\\times n$ 행렬이고 행렬 $B$가 $p\\times q$ 행렬일 때\n행렬 $A$와 $B$의 곱 $AB$가 정의 되려면 $n=p$ 이어야 한다."
+ },
+ {
+  "unit": "공수1-5-10",
+  "title": "4. 행렬의 거듭제곱",
+  "body": "정사각행렬 $A$에 대하여\n(1) $A^2=AA$, $A^3=A^2A$, $A^4=A^3A$, $\\cdots$\n(2) $A^mA^n=A^{m+n}$, $(A^m)^n=(A^n)^m=A^{mn}$ (단, $m,\\,n$ : 자연수)\n(3) 특수한 형태의 행렬의 거듭제곱\n① $$\\begin{pmatrix} a & 0 \\\\ 0 & b \\end{pmatrix}^n=\\begin{pmatrix} a^n & 0 \\\\ 0 & b^n \\end{pmatrix}$$\n② $$\\begin{pmatrix} 1 & 0 \\\\ a & 1 \\end{pmatrix}^n=\\begin{pmatrix} 1 & 0 \\\\ an & 1 \\end{pmatrix}$$\n③ $$\\begin{pmatrix} 1 & a \\\\ 0 & 1 \\end{pmatrix}^n=\\begin{pmatrix} 1 & an \\\\ 0 & 1 \\end{pmatrix}$$\n④ $$\\begin{pmatrix} a & b \\\\ 0 & a \\end{pmatrix}^n=\\begin{pmatrix} a^n & nba^{n-1} \\\\ 0 & a^n \\end{pmatrix}$$"
+ }
+]

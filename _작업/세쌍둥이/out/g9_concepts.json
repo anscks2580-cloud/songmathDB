@@ -1,0 +1,22 @@
+[
+ {
+  "unit": "공수1-5-10",
+  "title": "1. 행렬",
+  "body": "(1) 행렬의 정의\n임의의 수나 문자를 ( ) 안에 직사각형 모양으로 늘어놓은 것\n\n(2) 행렬의 표기\n$$M=\\begin{pmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & \\cdots & \\vdots \\\\ a_{m1} & a_{m2} & \\cdots & a_{mn} \\end{pmatrix} \\ \\Rightarrow\\ M=(a_{ij})$$\n(가로줄이 위에서부터 제1행, 제2행, …, 세로줄이 왼쪽부터 제1열, 제2열, …)\n행렬 $M$의 제$i$행, 제$j$열의 만나는 위치에 있는 원소를 $a_{ij}$로 나타내고, 이를 행렬 $M$의 $(i,\\,j)$성분 또는 $(i,\\,j)$원소라 하며, $M=(a_{ij})$로 나타낸다.\n\n(3) 특히 $m=n$일 때 행렬 $M$을 $n$차 정사각행렬이라 한다.\n\n**Song's TIP**\n$A=(a_{ij})$, $B=(b_{ij})$에 대하여\n(1) 두 행렬 $A,\\,B$의 크기가 같고\n(2) $(a_{ij})=(b_{ij}) \\Leftrightarrow \\begin{pmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{pmatrix}=\\begin{pmatrix} b_{11} & b_{12} \\\\ b_{21} & b_{22} \\end{pmatrix}$ 일 때\n두 행렬 $A,\\,B$는 서로 같은 행렬이라고 한다."
+ },
+ {
+  "unit": "공수1-5-10",
+  "title": "2. 행렬의 덧셈, 뺄셈, 실수배",
+  "body": "(1) 행렬의 덧셈, 뺄셈\n$A=\\begin{pmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{pmatrix}$, $B=\\begin{pmatrix} b_{11} & b_{12} \\\\ b_{21} & b_{22} \\end{pmatrix}$에 대하여\n$$A\\pm B=\\begin{pmatrix} a_{11}\\pm b_{11} & a_{12}\\pm b_{12} \\\\ a_{21}\\pm b_{21} & a_{22}\\pm b_{22} \\end{pmatrix} \\ (단,\\ 복호동순)$$\n\n(2) 행렬의 실수배\n$$A=\\begin{pmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{pmatrix} \\ \\Rightarrow\\ kA=\\begin{pmatrix} ka_{11} & ka_{12} \\\\ ka_{21} & ka_{22} \\end{pmatrix} \\ (단\\ k는\\ 실수)$$\n\n6. 영행렬 : 행렬의 모든 원소가 $0$인 행렬\n① $kO=O$  ② $0A=O$\n\n**Song's TIP**\n이차 정사각 행렬 $O$이 영행렬이면 $O=\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$ 이다."
+ },
+ {
+  "unit": "공수1-5-10",
+  "title": "3. 행렬의 곱셈",
+  "body": "(1) 행렬의 곱셈 유형\n( i ) $$\\begin{pmatrix} a_1 & a_2 & \\cdots & a_n \\end{pmatrix}\\begin{pmatrix} b_1 \\\\ b_2 \\\\ \\vdots \\\\ b_n \\end{pmatrix}=a_1b_1+a_2b_2+\\cdots+a_nb_n$$\n( ii ) $$\\begin{pmatrix} a_1 & a_2 \\\\ a_3 & a_4 \\end{pmatrix}\\begin{pmatrix} b_1 \\\\ b_2 \\end{pmatrix}=\\begin{pmatrix} a_1b_1+a_2b_2 \\\\ a_3b_1+a_4b_2 \\end{pmatrix}$$\n(iii) $$\\begin{pmatrix} a_1 & a_2 \\\\ a_3 & a_4 \\end{pmatrix}\\begin{pmatrix} b_1 & b_2 \\\\ b_3 & b_4 \\end{pmatrix}=\\begin{pmatrix} a_1b_1+a_2b_3 & a_1b_2+a_2b_4 \\\\ a_3b_1+a_4b_3 & a_3b_2+a_4b_4 \\end{pmatrix}$$\n\n(2) $A,\\,B,\\,C$가 아래의 곱이 정의되는 임의의 행렬일 때\n( i ) 교환법칙 : $AB\\ne BA$, $AE=EA=A$ (단, $E$ : 단위행렬)\n( ii ) 분배법칙 : $A(B+C)=AB+AC$, $(A+B)C=AC+BC$\n(iii) 결합법칙 : $(AB)C=A(BC)$, $(kA)B=k(AB)=A(kB)$\n\n**Song's TIP**\n행렬 $A$가 $m\\times n$ 행렬이고 행렬 $B$가 $p\\times q$ 행렬일 때\n행렬 $A$와 $B$의 곱 $AB$가 정의 되려면 $n=p$ 이어야 한다."
+ },
+ {
+  "unit": "공수1-5-10",
+  "title": "4. 행렬의 거듭제곱",
+  "body": "정사각행렬 $A$에 대하여\n(1) $A^2=AA$, $A^3=A^2A$, $A^4=A^3A$, $\\cdots$\n(2) $A^mA^n=A^{m+n}$, $(A^m)^n=(A^n)^m=A^{mn}$ (단, $m,\\,n$ : 자연수)\n(3) 특수한 형태의 행렬의 거듭제곱\n① $$\\begin{pmatrix} a & 0 \\\\ 0 & b \\end{pmatrix}^n=\\begin{pmatrix} a^n & 0 \\\\ 0 & b^n \\end{pmatrix}$$\n② $$\\begin{pmatrix} 1 & 0 \\\\ a & 1 \\end{pmatrix}^n=\\begin{pmatrix} 1 & 0 \\\\ an & 1 \\end{pmatrix}$$\n③ $$\\begin{pmatrix} 1 & a \\\\ 0 & 1 \\end{pmatrix}^n=\\begin{pmatrix} 1 & an \\\\ 0 & 1 \\end{pmatrix}$$\n④ $$\\begin{pmatrix} a & b \\\\ 0 & a \\end{pmatrix}^n=\\begin{pmatrix} a^n & nba^{n-1} \\\\ 0 & a^n \\end{pmatrix}$$"
+ }
+]

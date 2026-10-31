@@ -1,0 +1,12 @@
+[
+ {
+  "unit": "공수1-4-09",
+  "title": "1. 조합",
+  "body": "(1) 서로 다른 $n$개에서 순서를 생각하지 않고 $r$개를 뽑는 방법의 수를 조합이라 한다.\n\n(2) 조합의 수\n\n① 서로 다른 $n$개에서 $r$개를 택하는 조합의 수\n$${}_n\\mathrm{C}_r=\\dfrac{{}_n\\mathrm{P}_r}{r!}=\\dfrac{n(n-1)(n-2)\\cdots(n-r+1)}{r!}=\\dfrac{n!}{r!(n-r)!}\\ (\\text{단, } 0\\le r\\le n)$$\n\n② ${}_n\\mathrm{C}_0=1$, ${}_n\\mathrm{C}_n=1$, ${}_n\\mathrm{C}_1=n$\n\n③ ${}_n\\mathrm{C}_r={}_n\\mathrm{C}_{n-r}$ (단, $0\\le r\\le n$)\n\n④ ${}_n\\mathrm{C}_r={}_{n-1}\\mathrm{C}_r+{}_{n-1}\\mathrm{C}_{r-1}$ (단, $1\\le r<n$)\n\n**Song's TIP**\n${}_n\\mathrm{P}_r$은 서로 다른 $n$개에서 $r$개를 택하여 일렬로 배열하는 방법의 수이므로 이 경우의 수 중 $r$개가 배열된 방법의 수인 $r!$로 ${}_n\\mathrm{P}_r$을 나누어 주면 $r$개를 순서관계 없이 택하는 방법인 조합의 수를 계산할 수 있다."
+ },
+ {
+  "unit": "공수1-4-09",
+  "title": "2. 분할과 분배",
+  "body": "여러 개의 물건을 몇 개의 묶음으로 나누는 것을 분할이라 하고, 그 묶음을 나누어 주는 것을 분배라 한다.\n\n서로 다른 $n$개의 물건이 있을 때 (단, $p+q+r=n$)\n$p$개, $q$개, $r$개의 세 묶음으로 분할하는(나누는) 방법의 수는\n\n① $p$, $q$, $r$가 모두 다른 수인 경우: ${}_n\\mathrm{C}_p\\times{}_{n-p}\\mathrm{C}_q\\times{}_r\\mathrm{C}_r$\n\n② $p$, $q$, $r$ 중 어느 두 수가 같은 경우: ${}_n\\mathrm{C}_p\\times{}_{n-p}\\mathrm{C}_q\\times{}_r\\mathrm{C}_r\\times\\dfrac{1}{2!}$\n\n③ $p$, $q$, $r$의 세 수가 모두 같은 경우: ${}_n\\mathrm{C}_p\\times{}_{n-p}\\mathrm{C}_q\\times{}_r\\mathrm{C}_r\\times\\dfrac{1}{3!}$\n\n세 사람에게 각각 $p$개, $q$개, $r$개씩 분배하는(나누어 주는) 방법의 수는 (각각의 분할 방법의 수)$\\times3!$이다.\n\n**Song's TIP**\n모든 문제는 분할 후 분배의 순서로 생각하면 된다."
+ }
+]
