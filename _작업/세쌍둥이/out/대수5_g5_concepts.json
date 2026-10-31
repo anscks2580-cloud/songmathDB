@@ -1,0 +1,32 @@
+[
+ {
+  "unit": "대수-2-05",
+  "title": "1. 일반각",
+  "body": "시초선 $\\overrightarrow{\\mathrm{OX}}$와 동경 $\\overrightarrow{\\mathrm{OP}}$가 나타내는 한 각의 크기를 $\\alpha^\\circ$라고 할 때, 동경 $\\overrightarrow{\\mathrm{OP}}$가 나타내는 일반각 $\\theta$는\n$$\\theta=360^\\circ\\times n+\\alpha^\\circ\\ (n\\text{은 정수})$$\n와 같이 나타낼 수 있다.\n\n(그림 생략: 시초선 OX, 동경 OP, 두 반직선 사이의 각 α)\n\n**Song's tip** $x$축의 양의 방향을 기준으로 반시계방향으로 $30^\\circ$만큼 회전한 경우와 $390^\\circ$만큼 회전한 경우 바라보는 방향이 같으므로 $30^\\circ=390^\\circ$이다."
+ },
+ {
+  "unit": "대수-2-05",
+  "title": "2. 호도법",
+  "body": "반지름의 길이가 $r$인 원에서 길이가 $r$인 호에 대한 중심각의 크기를 **1라디안**이라 하고, 라디안을 단위로 하여 각의 크기를 나타내는 것을 **호도법**이라고 한다.\n\n호도법과 육십분법은 아래와 같은 관계를 갖는다.\n$$1\\text{라디안}=\\dfrac{180^\\circ}{\\pi},\\qquad 1^\\circ=\\dfrac{\\pi}{180^\\circ}$$\n\n(그림 생략: 반지름 $r$인 원에서 길이 $r$인 호에 대한 중심각 $1(rad)$)\n\n**Song's tip** 부채꼴의 중심각의 크기와 호의길이는 비례하므로 $1(rad):r=360^\\circ:2\\pi r$ 이다.\n이를 정리하면 $r\\cdot360^\\circ=2\\pi r(rad)$ 이므로 $1^\\circ=\\dfrac{\\pi}{180^\\circ}$이다."
+ },
+ {
+  "unit": "대수-2-05",
+  "title": "3. 부채꼴의 호의 길이와 넓이",
+  "body": "반지름의 길이가 $r$, 중심각의 크기가 $\\theta$(라디안)인 부채꼴의 호의 길이를 $l$, 넓이를 $S$라 하면\n$$l=r\\theta$$\n$$S=\\dfrac{1}{2}rl=\\dfrac{1}{2}r^2\\theta$$\n\n(그림 생략: 반지름 $r$, 중심각 $\\theta$, 호의 길이 $l$, 넓이 $S$인 부채꼴)\n\n**Song's tip** 부채꼴의 중심각의 크기와 호의길이는 비례하므로 $\\theta(rad):l=2\\pi(rad):2\\pi r$ 이다.\n이를 정리하면 $l\\cdot2\\pi(rad)=2\\pi r\\cdot\\theta(rad)$ 이므로 $l=r\\theta$ 이다.\n부채꼴의 넓이도 마찬가지로 중심각의 크기에 비례하므로 같은 방법으로 증명 할 수 있다."
+ },
+ {
+  "unit": "대수-2-05",
+  "title": "4. 삼각함수",
+  "body": "$\\overline{\\mathrm{OP}}=r$인 점 $\\mathrm{P}(x,\\,y)$에 대하여 동경 $\\overrightarrow{\\mathrm{OP}}$가 $x$축의 양의 방향과 이루는 각의 크기를 $\\theta$(라디안)라 할 때, $\\theta$에 대한 삼각함수는\n$$\\sin\\theta=\\dfrac{y}{r},\\qquad \\cos\\theta=\\dfrac{x}{r},\\qquad \\tan\\theta=\\dfrac{y}{x}\\ (x\\neq0)$$\n로 정의한다.\n\n(그림 생략: 반지름 $r$인 원 위의 점 $\\mathrm{P}(x,\\,y)$와 동경 $\\mathrm{OP}$가 $x$축의 양의 방향과 이루는 각 $\\theta$)\n\n**Song's tip** $\\tan\\theta=\\dfrac{y}{x}$가 정의되려면 $x\\neq0$ 이어야 하므로 $x$좌표가 $0$인 $90^\\circ$에 대해서는 $\\tan90^\\circ$가 존재하지 않는다."
+ },
+ {
+  "unit": "대수-2-05",
+  "title": "5. 삼각함수 값의 부호",
+  "body": "각 사분면에서 삼각함수의 값의 부호와 각 사분면에서 양의 값을 갖는 삼각함수를 알아보면 다음과 같다.\n\n| 삼각함수 \\ 사분면 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| $\\sin\\theta$ | $+$ | $+$ | $-$ | $-$ |\n| $\\cos\\theta$ | $+$ | $-$ | $-$ | $+$ |\n| $\\tan\\theta$ | $+$ | $-$ | $+$ | $-$ |\n\n**Song's tip** 제 $2$사분면의 모든 점들은 $(-,\\,+)$ 이므로 $x<0,\\ y>0,\\ r>0$ 이다.\n따라서 삼각함수의 정의에 의해 $\\sin\\theta>0,\\ \\cos\\theta<0,\\ \\tan\\theta<0$ 이다."
+ },
+ {
+  "unit": "대수-2-05",
+  "title": "6. 삼각함수 사이의 관계",
+  "body": "(1) $\\tan\\theta=\\dfrac{\\sin\\theta}{\\cos\\theta}$\n(2) $\\sin^2\\theta+\\cos^2\\theta=1$\n(3) $\\tan^2\\theta+1=\\dfrac{1}{\\cos^2\\theta}$\n\n**Song's tip** $\\sin^2\\theta+\\cos^2\\theta=1$의 양변을 $\\cos^2\\theta$로 나누면\n$\\dfrac{\\sin^2\\theta}{\\cos^2\\theta}+1=\\dfrac{1}{\\cos^2\\theta}$ 이고 $\\tan\\theta=\\dfrac{\\sin\\theta}{\\cos\\theta}$ 이므로\n$\\tan^2\\theta+1=\\dfrac{1}{\\cos^2\\theta}$ 이다."
+ }
+]
